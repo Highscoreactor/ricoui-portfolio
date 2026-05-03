@@ -23,11 +23,11 @@ export const siteConfig = {
 	},
 	// social links
 	social:{
-		twitter: "https://x.com/ricouii",
-		twitterName: "ricouii",
-		github: "https://github.com/ricocc",
-		blog: "https://ricoui.com",
-		xiaohongshu:"https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f"
+		twitter: "www.fly-f.com",
+		twitterName: "fly-f",
+		github: "www.fly-f.com",
+		blog: "www.fly-f.com",
+		xiaohongshu:"www.fly-f.com"
 	},
 };
 

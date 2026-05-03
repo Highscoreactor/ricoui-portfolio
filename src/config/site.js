@@ -3,10 +3,10 @@
 const SITE_URL = import.meta.env.PUBLIC_SITE_URL || 'https://portfolio.ricoui.com/';
 
 export const siteConfig = {
-	title: "Ricoui Portfolio",
-	author: "Ricoui",
+	title: "Highscoreactor Portfolio",
+	author: "Highscoreactor",
 	url: SITE_URL,
-	mail: "hello@ricoui.com",
+	mail: "1491079934@qq.com",
 	// resume add your resume file path here: /assets/resume.pdf
 	resume: "https://ricoui.com/",
 	utm: {
@@ -15,9 +15,9 @@ export const siteConfig = {
 		campaign: "navigation",
 	},
 	meta:{
-		title: "Ricoui Portfolio",
-		description: "I'm Rico, a web designer passionate about both design and code. Currently developing a personal product for the design community.",
-		keywords: "web designer, portfolio, design, code, personal website",
+		title: "Highscoreactor Portfolio",
+		description: "I'm Fly-Fire, a E-Commerce designer passionate about both design and code. Currently developing a personal product for the design community.",
+		keywords: "designer, portfolio, brand design, ui design",
 		image: `${SITE_URL}/og.jpg`,
 		twitterHandle: "ricouii",
 	},

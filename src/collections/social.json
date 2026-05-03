@@ -1,42 +1,42 @@
 [
 	{
         "id": 1,
-		"name": "Github",
-        "username": "ricocc",
-		"image": "/assets/social/social-github.jpg",
-		"url": "https://github.com/ricocc/"
-	},
+   "name": "Github",
+        "username": "Highscoreactor",
+   "image": "/assets/social/social-github.jpg",
+   "url": "https://github.com/Highscoreactor/"
+  }
 
 	{
         "id": 2,
 		"name": "Xiaohongshu",
-        "username": "ricouii",
+        "username": "Highscoreactor",
 		"image": "/assets/social/social-xiaohongshu.jpg",
-		"url": "https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f"
+		"url": "www.fly-f.com"
 	},
 
     {
         "id": 3,
 		"name": "Twitter",
-        "username": "ricouii",
+        "username": "Highscoreactor",
 		"image": "/assets/social/social-twitter.jpg",
-		"url": "https://x.com/ricouii"
+		"url": "www.fly-f.com"
 	},
 
     {
         "id": 4,
 		"name": "Gumroad",
-        "username": "ricoui",
+        "username": "Highscoreactor",
 		"image": "/assets/social/social-gumroad.jpg",
-		"url": "https://ricoui.gumroad.com/"
+		"url": "www.fly-f.com"
 	},
 
     {
         "id": 5,
 		"name": "Behance",
-        "username": "ricoui",
+        "username": "Highscoreactor",
 		"image": "/assets/social/social-behance.jpg",
-		"url": "https://www.behance.net/ricoui"
+		"url": "https://www.behance.net/c90fd690"
 	},
 
     {
@@ -51,17 +51,17 @@
     {
         "id": 7,
 		"name": "Dribbble",
-        "username": "ricoui",
+        "username": "Highscoreactor",
 		"image": "/assets/social/social-dribbble.jpg",
-		"url": "https://dribbble.com/ricoui"
+		"url": "www.fly-f.com"
 	},
 
     {
         "id": 8,
 		"name": "Email",
-        "username": "ricocc",
+        "username": "Highscoreactor",
 		"image": "/assets/social/social-email.jpg",
-		"url": "mailto:ricocc@qq.com"
+		"url": "1491079934@qq.com"
 	}
 
 

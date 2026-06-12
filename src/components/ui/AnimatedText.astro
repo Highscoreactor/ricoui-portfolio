@@ -41,6 +41,9 @@ if (content) {
   import { animate, stagger, inView } from "motion";
 
   const animatedTexts = document.querySelectorAll(".animated-text");
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
 
   animatedTexts.forEach((animatedText) => {
     const duration = parseFloat(
@@ -53,6 +56,16 @@ if (content) {
 
     // Get all words
     const words = animatedText.querySelectorAll(".word");
+
+    if (prefersReducedMotion) {
+      words.forEach((word) => {
+        const element = word as HTMLElement;
+        element.style.opacity = "1";
+        element.style.transform = "none";
+        element.style.filter = "none";
+      });
+      return;
+    }
 
     // Set initial state (text remains visible with slight displacement and blur)
     words.forEach((word) => {

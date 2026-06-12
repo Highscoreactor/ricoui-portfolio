@@ -26,7 +26,7 @@ const isHorizontal = layout === "horizontal";
 
 <article
   class:list={[
-    "group relative overflow-hidden bg-bg-secondary border-primary/35 p-4 dark:bg-neutral-900 rounded-2xl backdrop-blur-sm transition-all duration-500" ,
+    "group relative overflow-hidden bg-bg-secondary border border-primary/35 p-3 dark:bg-neutral-900 rounded-2xl transition-all duration-500" ,
     { "md:flex md:items-center": isHorizontal }
   ]}
   data-aos={dataAos}
@@ -86,11 +86,11 @@ const isHorizontal = layout === "horizontal";
 
   <!-- Content area -->
   <div class:list={[
-    "p-6 px-2 md:p-6 flex flex-col",
+    "p-2 pt-4 md:p-2 md:pt-4 flex flex-col min-h-[238px]",
     isHorizontal ? "md:w-1/2" : ""
   ]}>
     <!-- Date and tags -->
-    <div class="flex items-center text-sm mb-4 gap-2">
+    <div class="flex items-center text-sm mb-3 gap-2">
       <time class="inline-flex items-center text-neutral-500 dark:text-neutral-400 text-xs">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1.5 opacity-60">
           <rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect>
@@ -103,8 +103,8 @@ const isHorizontal = layout === "horizontal";
 
       {tags && tags.length > 0 && (
         <>
-          <span class="text-neutral-400 dark:text-neutral-500">·</span>
-          <span class="inline-flex items-center rounded-full bg-bg-secondary/8 dark:bg-bg-secondary/15 px-3 py-1 text-[11px] font-light text-primary/75 dark:text-primary-light/85 border border-primary/25 dark:border-primary/25">
+          <span class="size-1 rounded-full bg-neutral-300 dark:bg-neutral-600"></span>
+          <span class="inline-flex items-center rounded-full bg-neutral-50 dark:bg-primary/15 px-3 py-1 text-[11px] font-normal tracking-[0.04em] text-primary dark:text-primary-light border border-primary/15 dark:border-primary/25">
             {tags[0]}
           </span>
         </>
@@ -112,7 +112,7 @@ const isHorizontal = layout === "horizontal";
     </div>
     <!-- Title -->
     <a href={postLink}>
-      <h2 class:list={["font-brand text-neutral-900 dark:text-white mb-3 leading-tight transition-colors duration-300 group-hover:text-primary dark:group-hover:text-primary-light line-clamp-2", isHorizontal ? "text-3xl" : "text-2xl"]}>
+      <h2 class:list={["font-brand text-primary dark:text-primary-light mb-3 leading-tight transition-colors duration-300 line-clamp-2", isHorizontal ? "text-3xl" : "text-2xl"]}>
           {title}
         </h2>
     </a>
